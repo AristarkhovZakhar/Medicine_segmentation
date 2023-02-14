@@ -1,2 +1,6 @@
 # Medicine_segmentation
-The problem of data segmentation has been solved, as well as a large number of experiments with metrics and algorithms
+Решена задача сегментирования выделений на коже у пациентов. Задача решалась с помощью нескольких нейронных сетей: UNet, UNet2, SegNet.
+Использовавшиеся метрики: Dice, BCE, Focal, SoftBCE, Jaccard.
+После многочисленных экспериментов была выделена оптимальная пара -- UNet c функцией Jaccard, показавшая лучшие результаты как на валидационной так и на тестовой выборке
+
+![изображение](https://user-images.githubusercontent.com/110375755/218834737-53946c91-9019-4b9a-9f01-49432ba8e83f.png)
